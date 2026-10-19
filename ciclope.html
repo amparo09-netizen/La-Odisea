@@ -21,11 +21,10 @@
     <p>Dentro de la cueva hay ovejas, quesos colgados y un fuego casi apagado. La piedra de la entrada rueda sola, o eso parece, y se cierra detrás de Odiseo. Del fondo surge una respiración enorme y un único ojo brilla en la oscuridad.</p>
     <p>«¿Quién eres?», pregunta el gigante. Odiseo mira la estaca de olivo que hay junto a la pared y el odre de vino que trae consigo.</p>
     <div class="ambiente">
-      <p>Música ambiente (Pixabay):</p>
-      <audio controls loop>
+      <audio id="musica" loop autoplay preload="auto">
         <source src="audio/ambiente.mp3" type="audio/mpeg">
-        Tu navegador no soporta audio. <a href="https://pixabay.com/es/music/ambiente-mysterious-585275/" target="_blank" rel="noopener">Escuchá la pista en Pixabay</a>.
       </audio>
+      <p><button type="button" id="btn-musica">Silenciar música ambiente</button> · <a href="https://pixabay.com/es/music/ambiente-mysterious-585275/" target="_blank" rel="noopener">Música: Pixabay</a></p>
     </div>
     <h2>¿Qué le responde?</h2>
     <nav>
@@ -39,5 +38,6 @@
   <footer>
     <p>Ficción interactiva basada en La Odisea · Amparo Segovia · <a href="https://www.instagram.com/ampisegovia/" target="_blank" rel="noopener">Instagram @ampisegovia</a></p>
   </footer>
+  <script src="musica.js"></script>
 </body>
 </html>

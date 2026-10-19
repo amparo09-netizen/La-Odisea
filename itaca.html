@@ -21,11 +21,10 @@
     <p>Después de tantos años, la costa aparece en el horizonte. Es pequeña, verde y silenciosa. Odiseo llega con las manos vacías y la ropa gastada, pero vivo. Un perro viejo levanta la cabeza en el umbral de su casa y lo reconoce antes que nadie.</p>
     <p>La ceniza de Troya quedó atrás, flotando sobre el mar. Esta noche, por fin, el fuego de su hogar está encendido.</p>
     <div class="ambiente">
-      <p>Música ambiente (Pixabay):</p>
-      <audio controls loop>
+      <audio id="musica" loop autoplay preload="auto">
         <source src="audio/ambiente.mp3" type="audio/mpeg">
-        Tu navegador no soporta audio. <a href="https://pixabay.com/es/music/ambiente-mysterious-585275/" target="_blank" rel="noopener">Escuchá la pista en Pixabay</a>.
       </audio>
+      <p><button type="button" id="btn-musica">Silenciar música ambiente</button> · <a href="https://pixabay.com/es/music/ambiente-mysterious-585275/" target="_blank" rel="noopener">Música: Pixabay</a></p>
     </div>
     <h2>Fin</h2>
     <nav>
@@ -38,5 +37,6 @@
   <footer>
     <p>Ficción interactiva basada en La Odisea · Amparo Segovia · <a href="https://www.instagram.com/ampisegovia/" target="_blank" rel="noopener">Instagram @ampisegovia</a></p>
   </footer>
+  <script src="musica.js"></script>
 </body>
 </html>

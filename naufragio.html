@@ -21,11 +21,10 @@
     <p>Poseidón no perdona. Una ola enorme se levanta sin aviso y parte la barca por la mitad. Odiseo se hunde entre maderas y espuma, y lo último que ve es la superficie gris, muy arriba, cubierta por la ceniza que cae.</p>
     <p>En Ítaca, Penélope sigue tejiendo y destejiendo, esperando a alguien que ya no va a volver.</p>
     <div class="ambiente">
-      <p>Música ambiente (Pixabay):</p>
-      <audio controls loop>
+      <audio id="musica" loop autoplay preload="auto">
         <source src="audio/ambiente.mp3" type="audio/mpeg">
-        Tu navegador no soporta audio. <a href="https://pixabay.com/es/music/ambiente-mysterious-585275/" target="_blank" rel="noopener">Escuchá la pista en Pixabay</a>.
       </audio>
+      <p><button type="button" id="btn-musica">Silenciar música ambiente</button> · <a href="https://pixabay.com/es/music/ambiente-mysterious-585275/" target="_blank" rel="noopener">Música: Pixabay</a></p>
     </div>
     <h2>Fin</h2>
     <nav>
@@ -37,5 +36,6 @@
   <footer>
     <p>Ficción interactiva basada en La Odisea · Amparo Segovia · <a href="https://www.instagram.com/ampisegovia/" target="_blank" rel="noopener">Instagram @ampisegovia</a></p>
   </footer>
+  <script src="musica.js"></script>
 </body>
 </html>

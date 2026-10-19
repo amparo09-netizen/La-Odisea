@@ -25,11 +25,10 @@
     <p>Odiseo avanza solo por la arena fría. La niebla se abre y, entre las rocas, aparecen figuras que caminan hacia él: Euríloco, Elpénor, los compañeros que el mar y los monstruos se llevaron. Tienen los rostros pálidos como la ceniza y los pasos no dejan huellas.</p>
     <p>Quiere abrazarlos, pero sus brazos atraviesan el aire. Una de las sombras habla con una voz que parece el viento: «Capitán, todavía te queda mar por delante. Elige bien el camino, porque ya no podemos remar contigo».</p>
     <div class="ambiente">
-      <p>Música ambiente (Pixabay):</p>
-      <audio controls loop>
+      <audio id="musica" loop autoplay preload="auto">
         <source src="audio/ambiente.mp3" type="audio/mpeg">
-        Tu navegador no soporta audio. <a href="https://pixabay.com/es/music/ambiente-mysterious-585275/" target="_blank" rel="noopener">Escuchá la pista en Pixabay</a>.
       </audio>
+      <p><button type="button" id="btn-musica">Silenciar música ambiente</button> · <a href="https://pixabay.com/es/music/ambiente-mysterious-585275/" target="_blank" rel="noopener">Música: Pixabay</a></p>
     </div>
     <h2>El camino se parte en dos</h2>
     <nav>
@@ -43,5 +42,6 @@
   <footer>
     <p>Ficción interactiva basada en La Odisea · Amparo Segovia · <a href="https://www.instagram.com/ampisegovia/" target="_blank" rel="noopener">Instagram @ampisegovia</a></p>
   </footer>
+  <script src="musica.js"></script>
 </body>
 </html>

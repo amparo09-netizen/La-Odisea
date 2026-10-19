@@ -21,11 +21,10 @@
     <p>Odiseo llega a la costa y encuentra una barca pequeña. Mientras se aleja de la orilla, una melodía flota sobre el agua: voces de mujeres que conocen su nombre, su casa, el rostro de Penélope. Prometen contarle todo lo que ha ocurrido en el mundo.</p>
     <p>Recuerda la advertencia de las sombras. Tiene un trozo de cera en el bolsillo y una cuerda áspera junto al mástil.</p>
     <div class="ambiente">
-      <p>Música ambiente (Pixabay):</p>
-      <audio controls loop>
+      <audio id="musica" loop autoplay preload="auto">
         <source src="audio/ambiente.mp3" type="audio/mpeg">
-        Tu navegador no soporta audio. <a href="https://pixabay.com/es/music/ambiente-mysterious-585275/" target="_blank" rel="noopener">Escuchá la pista en Pixabay</a>.
       </audio>
+      <p><button type="button" id="btn-musica">Silenciar música ambiente</button> · <a href="https://pixabay.com/es/music/ambiente-mysterious-585275/" target="_blank" rel="noopener">Música: Pixabay</a></p>
     </div>
     <h2>¿Qué decide?</h2>
     <nav>
@@ -39,5 +38,6 @@
   <footer>
     <p>Ficción interactiva basada en La Odisea · Amparo Segovia · <a href="https://www.instagram.com/ampisegovia/" target="_blank" rel="noopener">Instagram @ampisegovia</a></p>
   </footer>
+  <script src="musica.js"></script>
 </body>
 </html>

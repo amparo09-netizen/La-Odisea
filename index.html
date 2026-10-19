@@ -21,11 +21,10 @@
     <p>El mar los escupió al amanecer. Los soldados de Ítaca caminan sin rumbo sobre una playa de arena gris, con las armaduras abolladas y la sal pegada a la barba. Nadie recuerda cuántos días lleva a la deriva. Nadie sabe qué costa es esta.</p>
     <p>El cielo está cubierto de una ceniza fina que cae sin hacer ruido. Quizás es el humo de Troya, que los siguió a través del mar. Más allá de las dunas se ve una sombra baja entre la niebla, y hacia el acantilado, la boca oscura de una cueva.</p>
     <div class="ambiente">
-      <p>Música ambiente (Pixabay):</p>
-      <audio controls loop>
+      <audio id="musica" loop autoplay preload="auto">
         <source src="audio/ambiente.mp3" type="audio/mpeg">
-        Tu navegador no soporta audio. <a href="https://pixabay.com/es/music/ambiente-mysterious-585275/" target="_blank" rel="noopener">Escuchá la pista en Pixabay</a>.
       </audio>
+      <p><button type="button" id="btn-musica">Silenciar música ambiente</button> · <a href="https://pixabay.com/es/music/ambiente-mysterious-585275/" target="_blank" rel="noopener">Música: Pixabay</a></p>
     </div>
     <h2>¿Qué hacen?</h2>
     <nav>
@@ -38,5 +37,6 @@
   <footer>
     <p>Ficción interactiva basada en La Odisea · Amparo Segovia · <a href="https://www.instagram.com/ampisegovia/" target="_blank" rel="noopener">Instagram @ampisegovia</a></p>
   </footer>
+  <script src="musica.js"></script>
 </body>
 </html>
